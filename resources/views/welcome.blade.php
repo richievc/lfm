@@ -23,7 +23,15 @@
         <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
-
+    <style>
+        .feature24 {
+            background-position: center top;
+            background-size: cover;
+            background-attachment: fixed;
+            -webkit-box-shadow: inset 2px 1px 7px 2px rgba(0,0,0,0.71);
+            box-shadow: inset 2px 1px 7px 2px rgba(0,0,0,0.71);
+        }
+    </style>
     </head>
     <body>
 
@@ -182,10 +190,45 @@
                     </div>
                 </div>
 
+                <div class="spacer bg-dark feature24" style="background-image:url('{{ asset('assets/images/features/call-acti-bg.jpg') }}')">
+                    <div class="container">
+                        <!-- Row -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title text-white font-medium m-b-20 m-t-20">Become a Customer</h2>
+                                <p class="font-light text-white op-8">Say something here</p>
+                                <a class="btn btn-danger-gradiant btn-md btn-arrow m-t-20 text-uppercase" href="#"><span>join us now<i class="ti-arrow-right"></i></span></a>
+                            </div>
+                        </div>
+                        <!-- Row -->
+                    </div>
+                </div>
 
-
-
-
+                <div class="client2 spacer p-t-0">
+                    <div class="container">
+                        <p class="alert text-dark text-center font-16 font-normal font-bold" style="font-size: 24px; font-weight: bold">We Specialize in the following technologies</p>
+                        <div class="row client-box text-center op-7">
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/php.png') }}" alt="PHP" height="100" width="120" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/ajax.png') }}" alt="aajx"  height="100" width="120"/>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/react.png') }}" alt="React" height="100" width="120" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/Cloud-Solution.png') }}" alt=Cloud" height="100" width="120" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/micro_services.png') }}" alt="Micro Services" height="100" width="120" />
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <img src="{{ asset('assets/images/nodejs.png') }}" alt="NodeJs" height="100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
