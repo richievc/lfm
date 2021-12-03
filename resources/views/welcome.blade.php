@@ -31,6 +31,37 @@
             -webkit-box-shadow: inset 2px 1px 7px 2px rgba(0,0,0,0.71);
             box-shadow: inset 2px 1px 7px 2px rgba(0,0,0,0.71);
         }
+
+        /*******************
+Testimonial 1
+*******************/
+        .testimonial1 .testi1 .card-body {
+            padding: 35px;
+        }
+
+        .testimonial1 .testi1 .thumb {
+            position: relative;
+            padding: 10px 20px 10px;
+            padding-left: 90px;
+            margin-left: -35px;
+            display: inline-block;
+            color: #ffffff;
+            margin-bottom: 30px; }
+        .testimonial1 .testi1 .thumb .thumb-img {
+            width: 60px;
+            position: absolute;
+            left: 20px;
+            top: -10px; }
+
+        .testimonial1 .testi1 h5 {
+            line-height: 30px; }
+
+        .testimonial1 .testi1 .devider {
+            height: 1px;
+            background: rgba(0, 0, 0, 0.9);
+            margin: 20px 0;
+            display: inline-block;
+            width: 100px; }
     </style>
     </head>
     <body>
@@ -230,6 +261,185 @@
                     </div>
                 </div>
 
+                <div class="spacer feature23 wrap-feature23-box" style="background-image:url('{{ asset('assets/images/photo-1522327646852-4e28586a40dd.jpg') }}')">
+                    <div class="container">
+                        <!-- Row -->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-5 col-md-8 text-center both-space">
+                                <div class="card" data-aos="flip-left" data-aos-duration="1200">
+                                    <div class="card-body">
+                                        <div class="text-box">
+                                            <h3 class="title font-bold">Media Stream and Live Broadcasting</h3>
+                                            <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt</h6> <a class="btn btn-success-gradiant btn-md btn-arrow m-t-20" href="#"><span>Urgent Donate<i class="ti-arrow-right"></i></span></a> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial1 spacer bg-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title font-medium">Check what our Customers are Saying</h2>
+                                <h6 class="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="owl-carousel owl-theme testi1 m-t-40">
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <div class="thumb bg-success-gradiant"><img src="{{ asset('assets/images/testimonial/1.jpg') }}" alt="wrapkit" class="thumb-img circle" /> Michelle Anderson</div>
+                                        <h5 class="font-light">You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.</h5>
+                                        <span class="devider"></span>
+                                        <h6>Managing Director, Theme Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <div class="thumb bg-success-gradiant"><img src="{{ asset('assets/images/testimonial/2.jpg') }}" alt="wrapkit" class="thumb-img circle" /> Michelle Anderson</div>
+                                        <h5 class="font-light">You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.</h5>
+                                        <span class="devider"></span>
+                                        <h6>CEO, Theme Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <div class="thumb bg-success-gradiant"><img src="{{ asset('assets/images/testimonial/3.jpg') }}" alt="wrapkit" class="thumb-img circle" /> Michelle Anderson</div>
+                                        <h5 class="font-light">You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.</h5>
+                                        <span class="devider"></span>
+                                        <h6>Managing Director, Theme Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                            <!-- item -->
+                            <div class="item">
+                                <div class="card card-shadow">
+                                    <div class="card-body">
+                                        <div class="thumb bg-success-gradiant"><img src="images/testimonial/1.jpg" alt="wrapkit" class="thumb-img circle" /> Michelle Anderson</div>
+                                        <h5 class="font-light">You can relay on our amazing features list and also our customer services will be great experience. You can relay on our amazing features.</h5>
+                                        <span class="devider"></span>
+                                        <h6>Managing Director, Theme Designer</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <!-- ============================================================== -->
+                    <!-- Contact 3  -->
+                    <!-- ============================================================== -->
+                    <div class="contact3 spacer">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="container">
+                                    <div class="row m-0">
+                                        <div class="col-lg-7">
+                                            <div class="card-shadow" data-aos="flip-left" data-aos-duration="1200"> <img src="../assets/images/contact/2.jpg" alt="wrapkit" class="img-responsive"> </div>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <div class="contact-box m-l-30">
+                                                <h1 class="title font-light m-t-10">Contact Us</h1>
+                                                <form class="m-t-30" data-aos="fade-left" data-aos-duration="1200">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-t-10">
+                                                                <input class="form-control" type="text" placeholder="Name"> </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-t-10">
+                                                                <input class="form-control" type="email" placeholder="Email address"> </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-t-10">
+                                                                <input class="form-control" type="text" placeholder="Phone"> </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <div class="form-group m-t-10">
+                                                                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-12">
+                                                            <button type="submit" class="btn btn-info-gradiant btn-md m-t-20 btn-arrow"><span> SUBMIT <i class="ti-arrow-right"></i></span></button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="card m-t-40">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-4">
+                                                        <div class="card-body d-flex no-block c-detail p-l-0">
+                                                            <div class="m-r-20 align-self-center"> <img src="../assets/images/contact/icon1.png" alt="wrapkit"> </div>
+                                                            <div class="">
+                                                                <h6 class="font-medium">Address</h6>
+                                                                <p class="">601 Sherwood Ave.
+                                                                    <br> San Bernandino</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4">
+                                                        <div class="card-body d-flex no-block c-detail">
+                                                            <div class="m-r-20 align-self-center"> <img src="../assets/images/contact/icon2.png" alt="wrapkit"> </div>
+                                                            <div class="">
+                                                                <h6 class="font-medium">Phone</h6>
+                                                                <p class="">251 546 9442
+                                                                    <br> 630 446 8851</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4">
+                                                        <div class="card-body d-flex no-block c-detail">
+                                                            <div class="m-r-20 align-self-center"> <img src="../assets/images/contact/icon3.png" alt="wrapkit"> </div>
+                                                            <div class="">
+                                                                <h6 class="font-medium">Email</h6>
+                                                                <p class="">info@wrappixel.com
+                                                                    <br> 123@wrappixel.com</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ============================================================== -->
+                    <!-- End Contact 3  -->
+                    <!-- ============================================================== -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619902.0054433027!2d-122.68851282163044!3d37.534535608111824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1507725785789" width="100%" height="450" style="border:0"></iframe>
+                    <!-- ============================================================== -->
+                    <!-- Call to action -->
+                    <!-- ============================================================== -->
+                    <div class="spacer">
+                        <div class="container">
+                            <div class="row justify-content-center m-b-30">
+                                <div class="col-md-7 text-center">
+                                    <h2 class="title">Are you happy with what we offer? Grab your WrapKit Copy Now</h2>
+                                    <h6 class="subtitle">Yeah ! Its pretty cool about what you are offering and i starterd to feel in love with your Amazing UI Kit. I want it Yea!</h6> <a class="btn btn-info-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" href="#"><span>Buy Wrapkit <i class="ti-arrow-right"></i></span></a> </div>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
 
             <a class="bt-top btn btn-circle btn-lg btn-info" href="#top">
@@ -319,6 +529,29 @@
                 }
             }
         });
+
+        /*******************************/
+        // this is for the testimonial 1
+        /*******************************/
+        $('.testi1').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                1170: {
+                    items: 2
+                }
+            }
+        });
+
+
         $('#dp').datepicker();
     </script>
 
