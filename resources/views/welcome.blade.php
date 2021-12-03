@@ -30,7 +30,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">LiquefireMeida</p>
+            <p class="loader__label">LiquefireMedia</p>
         </div>
     </div>
 
@@ -42,7 +42,7 @@
             <!-- ============================================================== -->
             <!-- Header 5  -->
             <!-- ============================================================== -->
-            <div class="header5" style="background: rgba(0,0,0, 1">
+            <div class="header5" style="background: rgba(0,0,0, .1)">
                 <div class="container po-relative">
                     <nav class="navbar navbar-expand-md h5-nav-bar">
                         <a href="#" class="navbar-brand p-3">
@@ -85,7 +85,7 @@
                             <div class="col-lg-6 align-self-center " data-aos="fade-down" data-aos-duration="1500">
                                 <div class="">
                                     <h1 class="text-white font-medium">Website Solutions Built on today's technology</h1>
-                                    <h5 class="text-white m-t-20 hidden-md-down">To accomplish great things, we must not only act but also dream and plan.</h5>
+                                    <h5 class="text-white m-t-20 hidden-md-down">To accomplish great things, we must not only dream and plan but also act.</h5>
                                     <a href="#" class="btn btn-outline-light btn-rounded m-t-30 m-b-30">More Info</a>
                                 </div>
                             </div>
@@ -130,11 +130,68 @@
                     </div>
                 </div>
 
+                <div class="spacer feature2">
+                    <div class="container">
+                        <!-- Row  -->
+                        <div class="row justify-content-center">
+                            <div class="col-md-7 text-center">
+                                <h2 class="title font-medium">Professional Web Development and Online Media Creation Company</h2>
+                                <h6 class="subtitle">>We are a dedicated and collaborative team of professionals that work with our Clients to Create and Implement IdealInnovative Solutions in Web Design,</h6>
+                            </div>
+                        </div>
+                        <!-- Row  -->
+                        <div class="row m-t-40">
+                            <!-- Column -->
+                            <div class="col-md-4 wrap-feature2-box">
+                                <div class="card card-shadow" data-aos="flip-left" data-aos-duration="1200">
+                                    <img class="card-img-top" src="{{ asset('assets/images/features/design.png') }}" alt="Website Design"  height="180"  />
+                                    <div class="card-body text-center">
+                                        <h5 class="font-medium">Website Design</h5>
+                                        <p class="m-t-20">
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-md-4 wrap-feature2-box">
+                                <div class="card card-shadow" data-aos="flip-up" data-aos-duration="1200">
+                                    <img class="card-img-top" src="{{ asset('assets/images/features/webhosting.jpg') }}" alt="Website Hosting" height="180" />
+                                    <div class="card-body text-center">
+                                        <h5 class="font-medium">Website Hosting</h5>
+                                        <p class="m-t-20">
+                                            We Provide Advanced Cloud Hosting Solutions. 2X Faster Speeds, Zero Service Interruption
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Column -->
+                            <div class="col-md-4 wrap-feature2-box">
+                                <div class="card card-shadow" data-aos="flip-right" data-aos-duration="1200">
+                                    <img class="card-img-top" src="{{ asset('assets/images/features/development.jpg') }}" alt="Website Programing" height="180"/>
+                                    <div class="card-body text-center">
+                                        <h5 class="font-medium">Website Programing</h5>
+                                        <p class="m-t-20">
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
 
 
             </div>
 
-            <a class="bt-top btn btn-circle btn-lg btn-info" href="#top"><i class="ti-arrow-up"></i></a>
+            <a class="bt-top btn btn-circle btn-lg btn-info" href="#top">
+                <i class="fa fa-arrow-up"></i>
+            </a>
         </div>
 
         <div class="footer4 spacer bg-dark b-t">
