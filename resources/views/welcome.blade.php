@@ -88,8 +88,8 @@ Testimonial 1
          * Header Data
          */
         $company_logo = asset('assets/images/logo.png');
-        $company_name = "LiqueFireMedia";
-        $sales_phone = '999-999-9999';
+        $company_name = "Liquefire Media LLC";
+        $sales_phone = '727-404-4515';
         $facebook_username = '';
         $twitter_username = '';
         $google_username = '';
@@ -114,8 +114,8 @@ Testimonial 1
         $box_2_panel_3_desc     = "";
 
         $feature24_bg           = asset('assets/images/features/call-acti-bg.jpg');
-        $feature24_title        = "Become a Customer";
-        $feature24_desc         = "Say something here";
+        $feature24_title        = "Core Programming";
+        $feature24_desc         = "Building your site from the inside out";
         $feature24_btn          = "Join us now";
 
         $lists = [
@@ -146,7 +146,6 @@ Testimonial 1
         $contact3_support_email = "";
 
     ?>
-
     <div id="main-wrapper">
 
         <div class="topbar">
@@ -341,7 +340,12 @@ Testimonial 1
                                     <div class="card-body">
                                         <div class="text-box">
                                             <h3 class="title font-bold">Media Stream and Live Broadcasting</h3>
-                                            <h6 class="subtitle">At Liquefire Media we offer custom media and content solutions for bothWeb and Mobilewith real time video/audio streaming for both local and online applications and services. Weather its livestreaming for content creation or for events and conferences, offsite monitoring and Interactive Services Integrations, or live customer interaction we will find the right solution to fit your needs</h6>
+                                            <h6 class="subtitle">
+                                                At Liquefire Media we offer custom media and content solutions for both Web and Mobile with real time
+                                                video/audio streaming for both local and online applications and services. Weather its livestreaming
+                                                for content creation or for events and conferences, offsite monitoring and Interactive Services
+                                                Integrations, or live customer interaction we will find the right solution to fit your needs
+                                            </h6>
                                             <a class="btn btn-success-gradiant btn-md btn-arrow m-t-20" href="#"><span>Learn More.<i class="ti-arrow-right"></i></span></a> </div>
                                     </div>
                                 </div>
@@ -351,7 +355,7 @@ Testimonial 1
                     </div>
                 </div>
 
-                <div class="testimonial1 spacer bg-light">
+               {{-- <div class="testimonial1 spacer bg-light">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-md-7 text-center">
@@ -411,7 +415,7 @@ Testimonial 1
                             <!-- item -->
                         </div>
                     </div>
-                </div>
+                </div>--}}
 
                 <div class="container-fluid">
                     <!-- ============================================================== -->
@@ -509,7 +513,10 @@ Testimonial 1
                             <div class="row justify-content-center m-b-30">
                                 <div class="col-md-7 text-center">
                                     <h2 class="title">SEO</h2>
-                                    <h6 class="subtitle">Yeah ! Its pretty cool about what you are offering and i starterd to feel in love with your Amazing UI Kit. I want it Yea!</h6> <a class="btn btn-info-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" href="#"><span>Buy Wrapkit <i class="ti-arrow-right"></i></span></a> </div>
+                                    <h6 class="subtitle">
+                                        Today, organic search results drive more than 50 percent of website traffic, which is why more businesses are taking another look at search engine optimization (SEO) and SEO management for growing their revenue and company.
+                                    </h6>
+                                    <a class="btn btn-info-gradiant btn-md btn-arrow m-t-20" data-toggle="collapse" href="#"><span>Learn More <i class="ti-arrow-right"></i></span></a> </div>
                             </div>
                         </div>
                     </div>
@@ -523,11 +530,12 @@ Testimonial 1
                     <div class="row">
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Address</h5>
-                            <p>Largo FL, 33614</p>
+                            <p>7207 114th Ave Suite C2<br>
+                                Largo FL 33773</p>
                         </div>
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Phone</h5>
-                            <p>Reception : 999-999-9999</p>
+                            <p>Reception : 727-404-4515</p>
                         </div>
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Email</h5>
@@ -549,7 +557,7 @@ Testimonial 1
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="d-flex font-14">
-                                    <div class="m-t-10 m-b-10 copyright">All Rights Reserved by LiquefireMediad.</div>
+                                    <div class="m-t-10 m-b-10 copyright">All Rights Reserved by Liquefire Media LLC.</div>
                                     <div class="links ml-auto m-t-10 m-b-10">
                                         <a href="#" class="p-10 p-l-0">Terms of Use</a>
                                         <a href="#" class="p-10">Legal Disclaimer</a>
