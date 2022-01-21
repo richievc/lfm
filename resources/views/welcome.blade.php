@@ -87,9 +87,19 @@ Testimonial 1
         /**
          * Header Data
          */
+        $domain = 'liquefirenedia.test';
         $company_logo = asset('assets/images/logo.png');
         $company_name = "Liquefire Media LLC";
+        $company_address = '7207 114th Ave Suite C2';
+        $company_city = 'Largo';
+        $company_state = 'FL';
+        $company_zip = 'Largo';
         $sales_phone = '727-404-4515';
+        $sales_email = 'sales@' . $domain;
+        $support_email = 'support@' . $domain;
+        $affilate_email = 'affiliate@' . $domain;
+
+
         $facebook_username = '';
         $twitter_username = '';
         $google_username = '';
@@ -100,7 +110,7 @@ Testimonial 1
 
         $image_box_2            = asset('assets/images/images.jpg');
         $title_box_2            = __('Professional Web Development and Online Media Creation Company');
-        $desc_box_2             = 'We are a dedicated and collaborative team of professionals that work with our Clients to Create and Implement IdealInnovative Solutions in Web Design,';
+        $desc_box_2             = 'We are a dedicated and collaborative team of professionals that work with our Clients to Create and Implement Ideal Innovative Solutions in Web Design,';
         $box_2_panel_1_image    = asset('assets/images/features/design.png');
         $box_2_panel_1_title    = 'Website Design';
         $box_2_panel_1_desc     = "";
@@ -126,24 +136,26 @@ Testimonial 1
             'Micro Services' => asset('assets/images/micro_services.png'),
             'NodeJs' => asset('assets/images/nodejs.png')
         ];
+
         $logos = '';
         foreach ($lists as $title => $url) {
-            $logos.= '<div class="col-lg-2 col-md-4">
-                <img src="' . $url . '" alt="' . $title . '" height="100" width="120" />
-            </div>';
-        }
+        $logos.= '<div class="col-lg-2 col-md-4">
+                    <img src="' . $url . '" alt="' . $title . '" height="100" width="120" />
+                </div>';
+    }
+
 
         $contact3_bg_image      = asset('assets/images/clouds-19.jpg');
         $contact3_icon          = asset('assets/images/contact-us-icon.png');
         $contact3_url           = url('pages/contactus/send');
-        $contact3_address       = "";
-        $contact3_address2      = "";
+        $contact3_address       = $company_address;
+        $contact3_address2      = $company_city . ', ' . $company_state . '. ' . $company_zip;
 
-        $contact3_sale_phone    = "";
-        $contact3_support_phone = "";
+        $contact3_sale_phone    = $sales_phone;
+        $contact3_support_phone = $sales_phone;
 
-        $contact3_sale_email    = "";
-        $contact3_support_email = "";
+        $contact3_sale_email    = $sales_email;
+        $contact3_support_email = $support_email;
 
     ?>
     <div id="main-wrapper">
@@ -182,7 +194,7 @@ Testimonial 1
                             <div class="col-lg-6 align-self-center " data-aos="fade-down" data-aos-duration="1500">
                                 <div class="">
                                     <h1 class="text-white font-medium">{{ $title_box_1 }}</h1>
-                                    <h5 class="text-white m-t-20 hidden-md-down">T{{ $desc_box_1 }}</h5>
+                                    <h5 class="text-white m-t-20 hidden-md-down">{{ $desc_box_1 }}</h5>
                                     <a href="#" class="btn btn-outline-light btn-rounded m-t-30 m-b-30">More Info</a>
                                 </div>
                             </div>
@@ -236,10 +248,10 @@ Testimonial 1
 
                         <div class="row justify-content-center">
                             <div class="col-md-7 text-center">
-                                <h2 class="title font-medium">
+                                <h2 class="title font-medium text-white" >
                                     {{ $title_box_2 }}
                                 </h2>
-                                <h6 class="subtitle">
+                                <h6 class="subtitle text-white">
                                     {{ $desc_box_2 }}
                                 </h6>
                             </div>
@@ -539,8 +551,11 @@ Testimonial 1
                         </div>
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Email</h5>
-                            <p>Office : <a href="#" class="link text-white">info@LiquefireMedia.com</a>
-                                <br/>Site : <a href="#" class="link text-white">sales@LiquefireMediad.com</a></p>
+                            <p>
+                                Office :    <a href="#" class="link text-white"{{ $sales_email }}</a><br/>
+                                Site :      <a href="#" class="link text-white">{{ $support_email }}</a><br/>
+                                Partners :  <a href="#" class="link text-white">{{ $affilate_email }}</a>
+                            </p>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <h5 class="m-b-20 text-white">Social</h5>
