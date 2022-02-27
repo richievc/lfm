@@ -75,89 +75,91 @@ Testimonial 1
     </style>
     </head>
     <body>
-
-    <div class="preloader">
-        <div class="loader">
-            <div class="loader__figure"></div>
-            <p class="loader__label">LiquefireMedia</p>
-        </div>
-    </div>
     <?php
 
-        /**
-         * Header Data
-         */
-        $domain = 'liquefirenedia.test';
-        $company_logo = asset('assets/images/logo.png');
-        $company_name = "Liquefire Media LLC";
-        $company_address = '7207 114th Ave Suite C2';
-        $company_city = 'Largo';
-        $company_state = 'FL';
-        $company_zip = 'Largo';
-        $sales_phone = '727-404-4515';
-        $sales_email = 'sales@' . $domain;
-        $support_email = 'support@' . $domain;
-        $affilate_email = 'affiliate@' . $domain;
+    /**
+     * Header Data
+     */
+    $domain = 'liquefirenedia.test';
+    $company_logo = asset('assets/images/logo.png');
+    $company_logo2 = asset('assets/images/logo-name.png');
+    $company_name = "Liquefire Media LLC";
+    $company_address = '7207 114th Ave Suite C2';
+    $company_city = 'Largo';
+    $company_state = 'FL';
+    $company_zip = 'Largo';
+    $sales_phone = '727-404-4515';
+    $support_phone = '727-404-4515';
+    $sales_email = 'sales@' . $domain;
+    $support_email = 'support@' . $domain;
+    $affiliate_email = 'affiliate@' . $domain;
 
 
-        $facebook_username = '';
-        $twitter_username = '';
-        $google_username = '';
+    $facebook_username = '';
+    $twitter_username = '';
+    $google_username = '';
 
-        $image_box_1    = asset('assets/images/437732.jpg');
-        $title_box_1    = 'Website Solutions Built on today\'s technology';
-        $desc_box_1     = 'To accomplish great things, we must not only dream and plan but also act.';
+    $image_box_1    = asset('assets/images/437732.jpg');
+    $title_box_1    = 'Website Solutions Built on today\'s technology';
+    $desc_box_1     = 'To accomplish great things, we must not only dream and plan but also act.';
 
-        $image_box_2            = asset('assets/images/images.jpg');
-        $title_box_2            = __('Professional Web Development and Online Media Creation Company');
-        $desc_box_2             = 'We are a dedicated and collaborative team of professionals that work with our Clients to Create and Implement Ideal Innovative Solutions in Web Design,';
-        $box_2_panel_1_image    = asset('assets/images/features/design.png');
-        $box_2_panel_1_title    = 'Website Design';
-        $box_2_panel_1_desc     = "";
+    $image_box_2            = asset('assets/images/images.jpg');
+    $title_box_2            = __('Professional Web Development and Online Media Creation Company');
+    $desc_box_2             = 'We are a dedicated and collaborative team of professionals that work with our Clients to Create and Implement Ideal Innovative Solutions in Web Design,';
+    $box_2_panel_1_image    = asset('assets/images/features/design.png');
+    $box_2_panel_1_title    = 'Website Design';
+    $box_2_panel_1_desc     = "";
 
-        $box_2_panel_2_image    = asset('assets/images/features/webhosting.jpg');
-        $box_2_panel_2_title    = 'Website Hosting';
-        $box_2_panel_2_desc     = "";
+    $box_2_panel_2_image    = asset('assets/images/features/webhosting.jpg');
+    $box_2_panel_2_title    = 'Website Hosting';
+    $box_2_panel_2_desc     = "";
 
-        $box_2_panel_3_image    = asset('assets/images/features/development.jpg');
-        $box_2_panel_3_title    = 'Website Development';
-        $box_2_panel_3_desc     = "";
+    $box_2_panel_3_image    = asset('assets/images/features/development.jpg');
+    $box_2_panel_3_title    = 'Website Development';
+    $box_2_panel_3_desc     = "";
 
-        $feature24_bg           = asset('assets/images/features/call-acti-bg.jpg');
-        $feature24_title        = "Core Programming";
-        $feature24_desc         = "Building your site from the inside out";
-        $feature24_btn          = "Join us now";
+    $feature24_bg           = asset('assets/images/features/call-acti-bg.jpg');
+    $feature24_title        = "Core Programming";
+    $feature24_desc         = "Building your site from the inside out";
+    $feature24_btn          = "Join us now";
 
-        $lists = [
-            'PHP' => asset('assets/images/php.png'),
-            'Ajax' => asset('assets/images/ajax.png'),
-            'React' => asset('assets/images/react.png'),
-            'Could Solutions' => asset('assets/images/Cloud-Solution.png'),
-            'Micro Services' => asset('assets/images/micro_services.png'),
-            'NodeJs' => asset('assets/images/nodejs.png')
-        ];
+    $lists = [
+        'PHP' => asset('assets/images/php.png'),
+        'Ajax' => asset('assets/images/ajax.png'),
+        'React' => asset('assets/images/react.png'),
+        'Could Solutions' => asset('assets/images/Cloud-Solution.png'),
+        'Micro Services' => asset('assets/images/micro_services.png'),
+        'NodeJs' => asset('assets/images/nodejs.png')
+    ];
 
-        $logos = '';
-        foreach ($lists as $title => $url) {
+    $logos = '';
+    foreach ($lists as $title => $url) {
         $logos.= '<div class="col-lg-2 col-md-4">
                     <img src="' . $url . '" alt="' . $title . '" height="100" width="120" />
                 </div>';
     }
 
 
-        $contact3_bg_image      = asset('assets/images/clouds-19.jpg');
-        $contact3_icon          = asset('assets/images/contact-us-icon.png');
-        $contact3_url           = url('pages/contactus/send');
-        $contact3_address       = $company_address;
-        $contact3_address2      = $company_city . ', ' . $company_state . '. ' . $company_zip;
+    $contact3_bg_image      = asset('assets/images/clouds-19.jpg');
+    $contact3_icon          = asset('assets/images/contact-us-icon.png');
+    $contact3_url           = url('pages/contactus/send');
+    $contact3_address       = $company_address;
+    $contact3_address2      = $company_city . ', ' . $company_state . '. ' . $company_zip;
 
-        $contact3_sale_phone    = $sales_phone;
-        $contact3_support_phone = $sales_phone;
+    $contact3_sale_phone    = $sales_phone;
+    $contact3_support_phone = $sales_phone;
 
-        $contact3_sale_email    = $sales_email;
-        $contact3_support_email = $support_email;
+    $contact3_sale_email    = $sales_email;
+    $contact3_support_email = $support_email;
 
     ?>
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">{{ $company_name }}</p>
+        </div>
+    </div>
+
     <div id="main-wrapper">
 
         <div class="topbar">
@@ -166,6 +168,7 @@ Testimonial 1
                     <nav class="navbar navbar-expand-md h5-nav-bar">
                         <a href="#" class="navbar-brand p-3">
                             <img src="{{ $company_logo }}" alt="{{ $company_name }}" style="width: 90px; height: 80px;" />
+                            <img src="{{ $company_logo2 }}" alt="{{ $company_name }}" />
                         </a>
                         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#h5-info" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="fa fa-bars"></span>
@@ -542,19 +545,22 @@ Testimonial 1
                     <div class="row">
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Address</h5>
-                            <p>7207 114th Ave Suite C2<br>
-                                Largo FL 33773</p>
+                            <p>
+                                {{ $company_address }}<br>
+                                {{ $company_city }} {{ $company_state }} {{ $company_zip }}
+                            </p>
                         </div>
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Phone</h5>
-                            <p>Reception : 727-404-4515</p>
+                            <p>Sales : {{ $sales_phone }}</p>
+                            <p>Support : {{ $support_phone }}</p>
                         </div>
                         <div class="col-lg-3 col-md-6 m-b-30">
                             <h5 class="m-b-20 text-white">Email</h5>
-                            <p>
-                                Office :    <a href="#" class="link text-white"{{ $sales_email }}</a><br/>
-                                Site :      <a href="#" class="link text-white">{{ $support_email }}</a><br/>
-                                Partners :  <a href="#" class="link text-white">{{ $affilate_email }}</a>
+                            <p style="font-size: 14px;">
+                                Office :    <a href="mailto:{{ $sales_email }}" class="link text-white">{{ $sales_email }}</a><hr/>
+                                Site :      <a href="mailto:{{ $support_email }}" class="link text-white">{{ $support_email }}</a><hr/>
+                                Partners :  <a href="mailto:{{ $affiliate_email }}" class="link text-white">{{ $affiliate_email }}</a>
                             </p>
                         </div>
                         <div class="col-lg-3 col-md-6">
@@ -572,11 +578,11 @@ Testimonial 1
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="d-flex font-14">
-                                    <div class="m-t-10 m-b-10 copyright">All Rights Reserved by Liquefire Media LLC.</div>
+                                    <div class="m-t-10 m-b-10 copyright">All Rights Reserved by {{ $company_name }}.</div>
                                     <div class="links ml-auto m-t-10 m-b-10">
-                                        <a href="#" class="p-10 p-l-0">Terms of Use</a>
-                                        <a href="#" class="p-10">Legal Disclaimer</a>
-                                        <a href="#" class="p-10">Privacy Policy</a>
+                                        <a href="{{ url('policies/terms') }}" class="p-10 p-l-0">Terms of Use</a>
+                                        <a href="{{ url('policies/legal') }}" class="p-10">Legal Disclaimer</a>
+                                        <a href="{{ url('policies/privacy') }}" class="p-10">Privacy Policy</a>
                                     </div>
                                 </div>
                             </div>
