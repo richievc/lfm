@@ -167,8 +167,7 @@ Testimonial 1
                 <div class="container po-relative">
                     <nav class="navbar navbar-expand-md h5-nav-bar">
                         <a href="#" class="navbar-brand p-3">
-                            <img src="{{ $company_logo }}" alt="{{ $company_name }}" style="width: 90px; height: 80px;" />
-                            <img src="{{ $company_logo2 }}" alt="{{ $company_name }}" />
+                            <img src="{{ $company_logo2 }}" alt="{{ $company_name }}"  width="480" />
                         </a>
                         <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#h5-info" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="fa fa-bars"></span>
@@ -210,26 +209,27 @@ Testimonial 1
                                                 <span class="font-stylish">{{ __('Request') }}</span>
                                                 <br> {{ __('Appointment') }}
                                             </h2>
-                                            <form class="m-t-30 p-30" data-aos="fade-left" data-aos-duration="1200">
+                                            <form action="{{ route('pages.contact_us.send') }}" class="m-t-30 p-30" data-aos="fade-left" method+"post" data-aos-duration="1200">
+                                                @csrf()
                                                 <div class="row">
                                                     <div class="col-lg-12">
                                                         <div class="form-group">
-                                                            <input class="form-control" type="text" placeholder="your name">
+                                                            <input name="full_name" class="form-control" type="text" placeholder="your name">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group">
-                                                            <input class="form-control" type="email" placeholder="email address">
+                                                            <input name="email" class="form-control" type="email" placeholder="email address">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group">
-                                                            <input class="form-control" type="text" placeholder="phone number">
+                                                            <input name="phone" class="form-control" type="text" placeholder="phone number">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group input-icon">
-                                                            <input class="form-control po-relative" type="text" placeholder="choose date" id="dp">
+                                                            <input name="date" class="form-control po-relative" type="text" placeholder="choose date" id="dp">
                                                             <i class="fa fa-calendar po-absolute"></i>
                                                         </div>
                                                     </div>
